@@ -81,90 +81,72 @@ body {
 .section-header {
     text-align: center;
     margin: 0 auto;
-    padding: 2.86rem 0;
-    font: 300 4.3rem 'Oswald', sans-serif;
+    padding: 40px 0;
+    font: 300 60px 'Oswald', sans-serif;
     color: #fff;
     text-transform: uppercase;
-    letter-spacing: 0.43rem;
+    letter-spacing: 6px;
 }
 .contact-wrapper {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin: 0 auto;
-    padding: 1.43rem;
+    padding: 20px;
     position: relative;
-    max-width: 60rem;
+    max-width: 840px;
 }
 /* Left contact page */
-/*noinspection ALL*/
 .form-horizontal {
     /*float: left;*/
-    max-width: 28.6rem;
+    max-width: 400px;
     font-family: 'Lato', sans-serif;
     font-weight: 400;
 }
-.name, .email, .text {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    width: 20rem;
-    height: 14rem;
-}
-.form-control {
-    width: 100%;
-    height: 1.8rem;
+.form-control, textarea {
+    max-width: 400px;
     background-color: #000;
     color: #fff;
-    letter-spacing: 0.9rem;
-}
-.form-control-1 {
-    width: 100%;
-    height: 6rem;
-    background-color: #000;
-    color: #fff;
-    letter-spacing: 0.9rem;
-}
-.col-12{
-    padding-bottom: 0.4rem;
+    letter-spacing: 1px;
 }
 .send-button {
     margin-top: 15px;
-    height: 2.43rem;
-    width: 28.57rem;
+    height: 34px;
+    width: 400px;
     overflow: hidden;
-    transition: all .5s ease-in-out;
+    transition: all .2s ease-in-out;
 }
 .alt-send-button {
-    width: 28.57rem;
-    height: 2.43rem;
-    transition: all .5s ease-in-out;
+    width: 400px;
+    height: 34px;
+    transition: all .2s ease-in-out;
 }
 .send-text {
     display: block;
-    margin-top: 0.7rem;
-    font: 700 0.86rem 'Lato', sans-serif;
-    letter-spacing: 0.14rem;
+    margin-top: 10px;
+    font: 700 12px 'Lato', sans-serif;
+    letter-spacing: 2px;
 }
 .alt-send-button:hover {
     transform: translate3d(0px, -29px, 0px);
 }
-/* Begin Right Contact Page */
+/* Right Contact Page */
 .direct-contact-container {
-    max-width: 28.57rem;
+    max-width: 400px;
 }
 /* Location, Phone, Email Section */
 .contact-list {
     list-style-type: none;
-    margin-left: -2.14rem;
-    padding-right: 1.43rem;
+    margin-left: -30px;
+    padding-right: 20px;
 }
 .list-item {
     line-height: 4;
     color: #aaa;
 }
 .contact-text {
-    font: 300 1.28rem 'Lato', sans-serif;
-    letter-spacing: 0.14rem;
+    font: 300 18px 'Lato', sans-serif;
+    letter-spacing: 1.9px;
     color: #bbb;
 }
 .place {
@@ -240,7 +222,10 @@ body {
     letter-spacing: 1px;
     text-align: center;
 }
-/* Begin Media Queries*/
+hr {
+    border-color: rgba(255,255,255,.6);
+}
+/*MEDIA QUERIES*/
 @media screen and (max-width: 850px) {
     .contact-wrapper {
         display: flex;
