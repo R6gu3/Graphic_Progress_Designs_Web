@@ -18,7 +18,7 @@ body {
 }
 /*INDEX PAGE*/
 /*NAV*/
-.nav {
+.nav, .nav2 {
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -27,7 +27,6 @@ body {
     padding: 20px 30px;
     /*noinspection CssUnresolvedCustomProperty*/
     color: var(--nav-color);
-    margin-bottom: 1em;
     border-bottom: var(--nav-border) solid 1px;
 }
 .nav-logo {
@@ -36,19 +35,19 @@ body {
     color: var(--nav-logo);
     text-decoration: none;
 }
-.nav-list {
+.nav-list, .nav-list2 {
     list-style: none;
 }
-.nav-list li {
+.nav-list li, .nav-list2 li {
     display: inline-block;
     margin-left: 1em;
 }
-.nav-list a {
+.nav-list a, .nav-list2 a {
     color: var(--nav-link);
     text-decoration: none;
     transition: color 0.9s ease;
 }
-/*MAIN*/
+/*INDEX PAGE MAIN*/
 /*CONTACT*/
 #contact {
     width: 100%;
@@ -215,7 +214,7 @@ body {
     letter-spacing: 1px;
     text-align: center;
 }
-/* Begin Media Queries*/
+/*MEDIA QUERIES*/
 @media screen and (max-width: 850px) {
     .contact-wrapper {
         display: flex;
